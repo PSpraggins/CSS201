@@ -12,10 +12,15 @@
     grid-template-columns: auto auto; 
     margin-left: auto;
     margin-right: auto; 
-    grid-gap: 50px;
+    grid-gap: 75px;
+    padding-top: 25px;
+}
+.header nav {
+    align-self: center;
 }
 .nav {
     margin: -52px 0 0 auto;
+   
 }
 .nav-ul {
     display: grid;
@@ -31,7 +36,7 @@
 }
 a {
     text-decoration: none;
-    color: black;
+    color: #4e4c4c;
 }
 
 .arrow::after {
@@ -41,6 +46,9 @@ a {
 .arrow:hover > .pop-up-nav{
     visibility: visible;
 }
+.nav-li a:hover, .arrow:hover:after {
+    color: rgb(189, 50, 50);
+}
 .pop-up-nav {
     visibility: hidden;
     position: absolute;
@@ -49,13 +57,13 @@ a {
 }
 .pop-up-nav li {
     list-style-type: none;
-    padding: 10px 20px;
+    padding: 10px 0;
     border-bottom: .1px solid grey;
 }
 .pop-up-nav ul {
     padding: 0;
     position: relative;
-    right: 40px;
+    right: 20px;
     border: 1px solid black;
 }
 .pop-up-nav a {
