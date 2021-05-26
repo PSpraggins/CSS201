@@ -4,6 +4,9 @@ body {
 .grid  {
     display: grid;
     border-bottom: 1px solid grey;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
 }
 .logo img{
     width: auto;
@@ -17,7 +20,8 @@ body {
     margin-left: auto;
     margin-right: auto; 
     grid-gap: 75px;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     
 }
 .header nav {
@@ -83,6 +87,7 @@ a {
     background-attachment: fixed;
     display: block;
     min-height: 785px;
+    padding-top: 86px;
 }
 #adventure-logo {
     display: block;
@@ -112,4 +117,28 @@ a {
     letter-spacing: 2px;
     font-style: italic;
     margin: 0;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: auto 390px;
+}
+.column-text {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+}
+h2 {
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 105px;
+}
+
+p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
 }
