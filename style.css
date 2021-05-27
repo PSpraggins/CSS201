@@ -89,7 +89,7 @@ a {
     min-height: 785px;
     padding-top: 86px;
 }
-#adventure-logo {
+.adventure-logo {
     display: block;
     padding-top: 32px;
     margin-left: auto;
@@ -119,15 +119,21 @@ a {
     margin: 0;
 }
 
+
 .section-2 {
     display: grid;
     grid-template-rows: auto auto;
-    margin: auto 390px;
+    padding: 0 390px;
+    background-image: url("images/second_mountain.png");
+    background-size: cover;
+    background-position: 50% 50%;
 }
 .column-text {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 40px;
+    margin-bottom: 175px;
+    margin-top: 10px;
 }
 h2 {
     font-family: 'Roboto Slab', serif !important;
@@ -141,4 +147,29 @@ p {
     font-family: 'Open Sans',sans-serif;
     font-size: 1rem;
     line-height: 1.6;
+    margin-bottom: 25px
+}
+.right p {
+    margin-bottom: 30px;
+}
+#read-more-button {
+    color: #fff;
+    background-color: #41807c;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    padding: 10px 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+#section2-part2 {
+    color: white;
+    padding-bottom: 140px;
+    text-align: center;
+    margin: 0 75px;
+}
+#h2-section2 {
+    margin: 30px 0 20px;
+}
+#section2-part2 p {
+    margin: 20px 20px 50px;
 }
