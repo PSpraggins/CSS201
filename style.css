@@ -232,3 +232,38 @@ p {
     top: -100px;
     z-index: 0;
 }
+.section-4 {
+    background-image: url("images/fourth_mountain.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.sec4-grid {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    padding: 0 370px 450px;
+    justify-content: space-around;
+    grid-gap: 20px;
+    position: relative;
+    top: -125px;
+}
+.image-box2 {
+    width: 366px;
+    height: 440px;
+    background-size: cover;
+    
+    
+}
+
+#red-backpack-img {
+    background-image: url("images/red-backpack.jpeg");
+    background-position: 40%;
+}
+#orange-backpack-img {
+    background-image: url("images/orange-backpack.jpeg");
+    background-position: 65%;
+}
+#green-hat-img {
+    background-image: url("images/green-hat.jpeg");
+    background-position: 15%;
+}
