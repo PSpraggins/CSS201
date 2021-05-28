@@ -237,6 +237,7 @@ p {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    padding: 0 370px;
 }
 .sec4-grid {
     display: grid;
@@ -266,4 +267,10 @@ p {
 #green-hat-img {
     background-image: url("images/green-hat.jpeg");
     background-position: 15%;
+}
+
+.sec4-text {
+    background-color: rgba(65, 128, 124, .5);
+    display: flex;
+    flex-direction: column;
 }
