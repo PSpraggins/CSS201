@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 .grid  {
     display: grid;
@@ -7,6 +8,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: #fff;
+    z-index: 999;
 }
 .logo img{
     width: auto;
@@ -22,7 +24,6 @@ body {
     grid-gap: 75px;
     padding-top: 15px;
     padding-bottom: 15px;
-    
 }
 .header nav {
     align-self: center;
@@ -152,7 +153,7 @@ p {
 .right p {
     margin-bottom: 30px;
 }
-#read-more-button {
+.read-more-button {
     color: #fff;
     background-color: #41807c;
     letter-spacing: 2px;
@@ -171,5 +172,63 @@ p {
     margin: 30px 0 20px;
 }
 #section2-part2 p {
-    margin: 20px 20px 50px;
+    margin: 20px 20px 200px;
+}
+
+.section-3 {
+    background-image: url("images/background_mountain.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+#sec3-grid {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    padding: 0 370px 450px;
+    justify-content: space-around;
+}
+
+.image-box {
+    overflow: hidden;
+    width: 366px;
+    height: 352px;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: bottom;
+
+}
+#sec3-left-img {
+    background-image: url("images/red-jacket-mountain.jpeg");
+    z-index: 0;
+}
+#sec3-mid-img {
+    background-image: url("images/third_mountain.jpeg");
+}
+#sec3-right-img {
+    background-image: url("images/backpack_mountain.jpeg");
+}
+#sec3-grid h3{
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: 20px;
+}
+.sec3-column p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    margin:20px 20px 30px;
+}
+#sec3-grid .read-more-button {
+    margin: 20px;
+}
+.sec3-column   {
+    max-width: 100%;
+
+}
+.margin-up {
+    position: relative;
+    top: -100px;
+    z-index: 0;
 }
