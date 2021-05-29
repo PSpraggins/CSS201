@@ -292,3 +292,27 @@ p {
     font-size: 1rem;
     line-height: 1.6;
 }
+.section-5 {
+    min-height: 404px;
+}
+.sec5-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.box-img  {
+    height: 404px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.pic1 {
+    background-image: url("images/one-of-four.jpeg");
+}
+.pic2  {
+    background-image: url("images/two-of-four.jpeg");
+}
+.pic3 {
+    background-image: url("images/three-of-four.jpeg");
+}
+.pic4 {
+    background-image: url("images/four-of-four.jpeg");
+}
