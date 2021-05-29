@@ -186,7 +186,7 @@ p {
 #sec3-grid {
     display: grid;
     grid-template-columns: 366px 366px 366px;
-    padding: 0 370px 450px;
+    padding: 0 370px 500px;
     justify-content: space-around;
 }
 
@@ -237,16 +237,16 @@ p {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    padding: 0 370px;
+    padding: 0 370px 80px;
 }
 .sec4-grid {
     display: grid;
     grid-template-columns: 366px 366px 366px;
-    padding: 0 370px 450px;
+    padding: 0 370px 0;
     justify-content: space-around;
     grid-gap: 20px;
     position: relative;
-    top: -125px;
+    top: -150px;
 }
 .image-box2 {
     width: 366px;
@@ -273,4 +273,22 @@ p {
     background-color: rgba(65, 128, 124, .5);
     display: flex;
     flex-direction: column;
+    margin: -50px auto 0;
+    color: white;
+    width: 80%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.sec4-text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin: 20px 20px 0;
+}
+
+.sec4-text p {
+    margin: 20px 20px 35px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
 }
