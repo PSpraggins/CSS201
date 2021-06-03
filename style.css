@@ -499,6 +499,19 @@ footer a {
         padding-left: 10%;
         padding-right: 10%;
     }
+    .section-2 {
+        padding: 0 80px;
+    }
+    #section2-part2 {
+        margin: 0;
+    }
+    .column-text {
+        grid-template-columns: 100%;
+        grid-gap: 0;
+    }
+    .right p{
+        margin-top: 0;
+    }
     #sec3-grid {
         grid-template-columns: 80%;
         padding: 0 15px 500px;
