@@ -439,7 +439,7 @@ footer a {
     left: 0;
     top: 0 ;
     height: 100vh;
-    width: 25%;
+    width: 40%;
     
 }
 .menu-close {
@@ -457,6 +457,7 @@ footer a {
 .side-nav-li {
     list-style-type: none;
     text-align: center;
+    padding: 5px;
 }
 .side-nav-li a {
     color: white;
@@ -662,6 +663,10 @@ footer a {
     }
     #back-to-top {
         width: 50px;
+    }
+    .side-nav-ul {
+        padding: 0 25px 20px;
+        font-size: .75rem;
     }
 
 }
