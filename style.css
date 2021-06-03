@@ -90,6 +90,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 26%;
+    background-attachment: fixed;
     display: inline-block;
     min-height: 785px;
     padding-top: 86px;
@@ -197,6 +198,7 @@ p {
     grid-template-columns: 366px 366px 366px;
     padding: 0 370px 500px;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .image-box {
@@ -211,12 +213,15 @@ p {
 #sec3-left-img {
     background-image: url("images/red-jacket-mountain.jpeg");
     z-index: 0;
+    width: 100%;
 }
 #sec3-mid-img {
     background-image: url("images/third_mountain.jpeg");
+    width: 100%;
 }
 #sec3-right-img {
     background-image: url("images/backpack_mountain.jpeg");
+    width: 100%;
 }
 #sec3-grid h3{
     font-family: 'Roboto Slab', serif !important;
@@ -247,6 +252,7 @@ p {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     padding: 0 370px 80px;
+    max-width: 100%;
 }
 .sec4-grid {
     display: grid;
@@ -268,14 +274,17 @@ p {
 #red-backpack-img {
     background-image: url("images/red-backpack.jpeg");
     background-position: 40%;
+    width: 100%;
 }
 #orange-backpack-img {
     background-image: url("images/orange-backpack.jpeg");
     background-position: 65%;
+    width: 100%;
 }
 #green-hat-img {
     background-image: url("images/green-hat.jpeg");
     background-position: 15%;
+    width: 100%;
 }
 
 .sec4-text {
@@ -376,6 +385,7 @@ p {
     width: 100%;
     background-color: transparent;
     overflow: auto;
+    overflow-x: hidden;
     margin-bottom: 15px;
 }
 .form-item input, .form-item textarea {
@@ -417,11 +427,7 @@ footer a {
     height: 75px;
     width: 75px;
 }
-/* @media all and (min-height: 900px){
-    #back-to-top{
-        visibility: hidden;
-    }
-} */
+
 #back-to-top img{
     width: 100%;
 }
@@ -444,13 +450,87 @@ footer a {
     #hamburger-menu {
         width: 50px;
     }
+    .adventure-logo {
+        width: 125px;
+    }
     #hero-text h1{
-        font-size: 3rem;
+        font-size: 4rem;
     }
-    #hero-text h5 {
-        font-size: 1rem;
+   
+    .section-2 {
+        padding: 0 150px;
     }
-    .sec4-grid{
-        padding: 0 250px 0;
+    #section2-part2{
+        margin: 0 10px;
     }
+    #h2-section2 {
+        margin: 50px 0 20px;
+    }
+   
+    #sec3-grid {
+        grid-template-columns: 250px 250px 250px;
+        grid-gap: 20px;
+    }
+    .section-4 {
+        padding: 0 100px 80px;
+    }
+    .sec4-grid {
+        grid-template-columns: 250px 250px 250px;
+    }
+    .sec5-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .section-6{
+        padding: 0 15%;
+    }
+
+} 
+
+@media screen and (max-width: 900px) { 
+    .adventure-logo {
+        width: 100px;
+    }
+    #hero-text{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #hero-text h1 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #sec3-grid {
+        grid-template-columns: 80%;
+        padding: 0 15px 500px;
+    }
+    .sec3-column{
+        height: 600px;
+    }
+    #sec3-mid {
+        position: relative;
+        top: -100px;
+        z-index: 0;
+    }
+    
+    .sec4-grid {
+        grid-template-columns: 100%;
+        padding: 0 15px 30px;
+    }
+    .sec4-text {
+        width: 95%;
+    }
+    .sec5-grid {
+        grid-template-columns: 100%;
+    }
+    .section-6{
+        padding: 0 10%;
+    }
+    #sec6-contact  {
+        
+        grid-template-columns: 100%;
+    }
+    #sec6-header h2 {
+        padding-bottom: 75px;
+    }
+
 }
