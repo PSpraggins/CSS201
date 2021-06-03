@@ -457,7 +457,8 @@ footer a {
 .side-nav-li {
     list-style-type: none;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    font-weight: 700;
 }
 .side-nav-li a {
     color: white;
@@ -664,9 +665,13 @@ footer a {
     #back-to-top {
         width: 50px;
     }
+    #side-nav-menu {
+        width: 100%;
+    }
     .side-nav-ul {
         padding: 0 25px 20px;
-        font-size: .75rem;
+        font-size: 1rem;
     }
+
 
 }
